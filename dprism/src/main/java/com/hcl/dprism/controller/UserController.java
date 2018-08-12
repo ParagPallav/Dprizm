@@ -28,7 +28,7 @@ public class UserController {
 
 		return userService.userService() +"bikash";
 	}
-
+	@CrossOrigin(origins="*")
 	@GetMapping("/getloggedinuser")
 	public String getLoggedinUserName() {
 
